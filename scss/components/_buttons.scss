@@ -1,0 +1,8 @@
+.register{
+  background-color: $red;
+  padding: 15px;
+  border-radius: 25px;
+  &:hover{
+    background-color: $red-light;
+  }
+}

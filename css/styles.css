@@ -1,0 +1,111 @@
+.register {
+  background-color: #CC3333;
+  padding: 15px;
+  border-radius: 25px; }
+  .register:hover {
+    background-color: #e08585; }
+
+body {
+  background-color: #262626;
+  margin: 0 auto;
+  position: relative;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+.container {
+  background-color: #262626;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px; }
+
+.thumbnails {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .thumbnails img {
+    width: 23%;
+    height: 23%;
+    margin: 1%; }
+
+.nav-bar .logo {
+  padding-left: 30px; }
+.nav-bar .menu {
+  padding-right: 30px; }
+
+@media screen and (max-width: 930px) {
+  .thumbnails {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .thumbnails img {
+      width: 46%;
+      height: 46%;
+      margin: 1.5%; }
+
+  .nav-bar .logo {
+    display: block;
+    margin: auto; }
+  .nav-bar .menu {
+    display: none; } }
+@media screen and (max-width: 700px) {
+  .footer-1 {
+    display: none; }
+
+  .nav-bar .logo {
+    display: block;
+    margin: auto;
+    max-width: 80%; }
+  .nav-bar .menu {
+    display: none; }
+
+  .thumbnails img {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 3%; } }
+.nav-bar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto; }
+  .nav-bar ul {
+    list-style: none;
+    display: flex; }
+  .nav-bar li {
+    margin-left: 20px; }
+  .nav-bar a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.footer-1 {
+  width: 100%;
+  position: absolute;
+  height: 420px;
+  background-color: #CC3333;
+  margin-top: -200px;
+  z-index: 99; }
+  .footer-1 .footer-nav {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    align-self: center;
+    margin: 40px;
+    color: #fff; }
+    .footer-1 .footer-nav li {
+      margin-left: 15px; }
+  .footer-1 img {
+    position: absolute;
+    top: -50px;
+    transform: rotate(-10deg); }
+  .footer-1 img {
+    clip: rect(0px, 700px, 420px, 0px); }
+
+.footer-2 {
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  bottom: 0;
+  background-color: #474747; }
+
+/*# sourceMappingURL=styles.css.map */
